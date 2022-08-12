@@ -2696,6 +2696,7 @@
       "image": "linuxserver/plex:latest",
       "logo": "https://raw.githubusercontent.com/xneo1/portainer_templates/master/Images/plex-icon.png",
       "name": "plex",
+      "ports": ["32400:32400/tcp"], 
       "network": "host",
       "platform": "linux",
       "restart_policy": "unless-stopped",

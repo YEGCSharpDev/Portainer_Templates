@@ -3043,7 +3043,7 @@
       "logo": "https://raw.githubusercontent.com/linuxserver/beta-templates/master/lsiodev/img/rutorrent-icon.png",
       "name": "rutorrent",
       "platform": "linux",
-      "ports": ["80/tcp", "51413:51413/tcp", "6881:6881/udp"],
+      "ports": ["8113:80/tcp", "51413:51413/tcp", "6882:6881/udp"],
       "restart_policy": "unless-stopped",
       "title": "ruTorrent",
       "type": 1,
